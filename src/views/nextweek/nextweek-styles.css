@@ -1,0 +1,28 @@
+.task-description{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+
+#fecha{
+    color:rgb(17, 17, 85);
+    font-weight: bold;
+}
+.task-description>.botones{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 2px;
+    flex-basis:80px;
+}
+
+.trash{
+    color:red;
+}
+.pen{
+    color:green;
+}
+.add:link{
+    text-decoration: none;
+    color:purple;
+}

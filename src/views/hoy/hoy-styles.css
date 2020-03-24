@@ -1,0 +1,103 @@
+.home-page{
+    padding: 1rem 0rem;
+}
+
+.task-element{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #000;
+    padding: 10px 0px;
+    margin-top: 15px;
+}
+
+.task-element .checkbox{
+    flex-basis: 5%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.task-element .task-description{
+    flex-grow: 2;
+    flex-basis: 95%;
+}
+
+.task-element .task-description p{
+    margin-bottom: 2px;
+}
+
+.home-page{
+    padding: 1rem 1rem;
+}
+/*From here*/
+.task-description{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+
+#fecha{
+    color:rgb(17, 17, 85);
+    font-weight: bold;
+}
+.task-description>.botones{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px;
+    flex-basis:80px;
+}
+.botones{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.iconbox{
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+}
+.backgroundpen{
+    background-color: rgb(255, 174, 0);
+}
+.backgroundtrash{
+    background-color: red;
+}
+
+.trashk{
+    color:white;
+}
+.update{
+    color:black;
+}
+
+
+.addtask{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.agregar{
+    display: inline;
+    flex-basis:200px;
+    color:red;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.roundedicon{
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.paragraph>p{
+    margin-left:10px;
+    margin-top:20px;
+    font-weight: bold;
+    text-align: center;
+}
+

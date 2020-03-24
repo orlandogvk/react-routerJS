@@ -24,6 +24,44 @@
   color: white;
 }
 
+.menu-desplegable{
+  background-color: #09646e;
+
+}
+#root .container .navbar-container{
+  padding-left:0px;
+  padding-right: 0px;
+
+}
+
+.menu-desplegable.navbar-light .navbar-nav .nav-link{
+  color:#fff;
+  border-bottom: 1px solid white;
+}
+.menu-desplegable.navbar-light .navbar-brand{
+    color:#fff;
+}
+
+
+@media only screen and (min-width: 768px){
+  .menu-desplegable.navbar{
+   flex-direction: column;
+   height: 100vh;
+ }
+   .menu-desplegable.navbar .navbar-nav{
+      flex-direction: column;
+   }
+
+   .menu-desplegable.navbar .navbar-collapse{
+     align-items: flex-start;
+     width: 100%;
+   }
+}
+
+
+
+
+
 .App-link {
   color: #61dafb;
 }
